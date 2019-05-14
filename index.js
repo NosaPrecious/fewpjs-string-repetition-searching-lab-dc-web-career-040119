@@ -9,7 +9,9 @@ const heyJude = function(str, num){
   return "Na na na na na na na, na na na na, hey Jude.".repeat(16);
 };
 
-const prohibitedLanguage = function(){
-  let regexps = /'candycorn' |  
+const prohibitedLanguage = function(userInput){
+  let regexps = /'candycorn' | 'brusselssprouts'/i;
+  
+  return userInput.search(regexps);
 }
 
