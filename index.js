@@ -6,7 +6,6 @@
 // heyJude();
 
 const heyJude = function(str, num){
-  return (new Array(num + 1)).join(str);
+  return "Na na na na na na na, na na na na, hey Jude.".repeat(16);
 };
 
-heyJude("Na na na na na na na, na na na na, hey Jude.", 16);
