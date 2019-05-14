@@ -10,6 +10,6 @@ const heyJude = function(str, num){
 };
 
 const prohibitedLanguage = function(){
-  let regexps = / 
+  let regexps = /'candycorn' |  
 }
 
